@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lenovo</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1>Lenovo</h1>
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <ul class="navigation">
+                <li><a href="">home</a></li>
+                <li><a href="">menu</a></li>
+                <li><a href="">what's new</a></li>
+                <li><a href="">contact</a></li>
+                <a href="" class="button">Sign in</a>
+            </ul>
+
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2> Lenovo Legion M200 RGB </h2>
+                <p class="desc">Legitech High Performance Wireless mouse</p>
+                <p class="overview">Gaming Mouse is designed for the beginners and amateur PC gamers. With a comfortable ambidextrous design, it is affordable but offers uncompromising functionality and performance.</p>
+                <p class="price">INR 1190</p>
+                <a href="">Add to cart</a>
+                <a href="">More Details</a>
+            </div>
+            <div class="textbox2">
+                <img id="rotate" src="images/GX30P93886-01-500x400.webp" alt="">
+            </div>
+
+        </div>
+        <ul class="sci">
+            <li>
+                <i class="fab fa-facebook-f"></i>
+            </li>
+            <li>
+                <i class="fab fa-twitter"></i>
+            </li>
+            <li>
+                <i class="fab fa-instagram"></i>
+            </li>
+        </ul>
+        <footer>design by:-Deepak Jain</footer>
+    </section>
+    <script>
+        function toggleMenu() {
+            var menutoggle = document.querySelector('.toggle');
+            var navigation = document.querySelector('.navigation');
+            menutoggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>
